@@ -1,6 +1,6 @@
 import discord
-from discord.ext import commands
 import requests
+from discord.ext import commands
 
 intents = discord.Intents.default()
 intents.messages = True
@@ -21,4 +21,4 @@ async def recent_commits(ctx, repo_owner, repo_name):
         message = f'{commit["commit"]["message"]} - {commit["commit"]["committer"]["name"]}'
         await ctx.send(message)
 
-erica.run('MTEyNTg3NTE3MjE4MDc3MDkzOA.GtC2yF.LtaGDjbxPS-aCRqkBWDv_BTTpoJkTA4e5kEBoA')
+erica.run('your discord bot token, u need to keep ur token to urself do not ever reveal it online')
